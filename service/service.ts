@@ -10,7 +10,6 @@ const BASE_ROUTE = process.env.BASE_ROUTE;
 const upload = multer({ dest: 'temp/' })
 const execSync = require('child_process').execSync;
 const supportedMimetypes = ['wav', 'mp4','mpeg'];
-const cCPUs = require('os').cpus().length;
 
 async function transcribe(path_to_file: string){  
     return execSync(`python -W ignore whisp.py ${path_to_file}`).toString().trim();
