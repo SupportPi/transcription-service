@@ -11,6 +11,11 @@ and Whisper installed:
 # Use Case
  multipart/form-data POST (containing a file input named audio) to localhost:{PORT}/upload returns a JSON Response.
 
+ ```
+ <form action="/upload" method="post" enctype="multipart/form-data">
+  <input type="file" name="audio" />
+ </form>
+ ```
 # Response
 ``{
  success: boolean,
