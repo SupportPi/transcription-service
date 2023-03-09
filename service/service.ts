@@ -1,12 +1,8 @@
-const cluster = require('cluster');
 import fs from 'fs/promises';
 import express from 'express';
 import colors from 'colors';
 import multer from 'multer';
 import dotenv from 'dotenv';
-const bodyParser = require('body-parser');
-const jsonParser = bodyParser.json(); // If necessary Later. Remove if not.
-
 dotenv.config();
 colors.enable();
 const PORT = process.env.PORT;
