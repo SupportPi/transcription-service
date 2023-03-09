@@ -56,4 +56,4 @@ load balancing and it will still be extremely Inefficient.
 For using AI Models in your Web App, I'd recommend using a Service such as https://replicate.com/ 
 
 The only valid use case I can think of off of the top of my head for something like this would be for use in a Desktop Application where
-the model is running on a User's Machine.
+the Service is running on a User's Machine and won't be blocked by other Users. 
