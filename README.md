@@ -53,7 +53,7 @@ Express is an Awful Choice for writing something like this because it's single t
 To get the most out of this, you would need to run multiple instances of "transcription-service" behind an NGINX Proxy for 
 load balancing and it will still be extremely Inefficient.
 
-For using AI Models in your Web Application, I'd recommend using a Service such as https://replicate.com/ 
+For using AI Models in your Web App, I'd recommend using a Service such as https://replicate.com/ 
 
 The only valid use case I can think of off of the top of my head for something like this would be for use in a Desktop Application where
 the model is running on a User's Machine.
