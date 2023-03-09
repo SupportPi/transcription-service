@@ -15,7 +15,7 @@ async function transcribe(path_to_file: string){
     return execSync(`python -W ignore whisp.py ${path_to_file}`).toString().trim();
 }
 
-console.log(`Server Listening on Port:`.yellow,`${PORT}!`.green);
+
 const app = express();
 app.post(`${BASE_ROUTE}/upload`, upload.single("audio"), async (req, res)=>{
     let filepath = "", mimetype = "";
@@ -66,7 +66,7 @@ app.post(`${BASE_ROUTE}/upload`, upload.single("audio"), async (req, res)=>{
     }
 });
 app.listen(PORT);
-
+console.log(`Server Listening on Port:`.yellow,`${PORT}!`.green);
 
 
 
