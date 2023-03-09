@@ -34,7 +34,7 @@ the initial transcription using the model will be botched.
 
 I recomended to run this behind NGINX Proxy for Load Balancing (otherwise other requests will be blocked while transcriptions are being processed).
 Multiple Services can be run for Load Balancing.
-
+### Environmental Variables
 This Project is dependent on dotenv and you must create a .env file local to where you run the Service
 that contains the Variables below: 
 
