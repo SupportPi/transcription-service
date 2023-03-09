@@ -1,5 +1,5 @@
 # transcription-service
-AI Transcription Service - multipart/form-data POST to /uploads returns a JSON Response.
+AI Transcription Service using OpenAI's Whisper - multipart/form-data POST to /uploads returns a JSON Response.
 
 {
  success: boolean,
