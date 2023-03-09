@@ -9,6 +9,8 @@ and Whisper installed:
 ``pip install -U openai-whisper``
 
 # Use Case
+
+## Request
  multipart/form-data POST (containing a file input named audio) to localhost:{PORT}/upload returns a JSON Response.
 
  ```
@@ -18,9 +20,9 @@ and Whisper installed:
  ```
 ## Response
 ``{
- success: boolean,
- message: string,
- transcription: string
+   success: boolean,
+   message: string,
+   transcription: string,
 }``
 
 # Instructions
