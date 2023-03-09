@@ -43,7 +43,7 @@ The BASE_URL Environmental Variable must be set if this approach is taken.
 
 The PORT environmental Variable must also be set to an open port.
 
-# How to run
+# How to Run
 run npm install before first run 
 then npm start
 
