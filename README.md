@@ -48,7 +48,7 @@ run npm install before first run
 then npm start
 
 # Extra
-Express is an Awful Choice for writing something like this because it's single threaded.
+This isn't very Performant both because it's unoptimized and because Express is an poor choice for writing something like this because it's single threaded.
 
 To get the most out of this, you would need to run multiple instances of "transcription-service" behind an NGINX Proxy for 
 load balancing and it will still be extremely Inefficient.
